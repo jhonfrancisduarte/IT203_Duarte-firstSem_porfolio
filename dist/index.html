@@ -1,0 +1,1806 @@
+<!DOCTYPE html>
+<html>
+<head><title>203_duartePortfolio</title>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="image/png" href="images/logo1.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+    <script type="module" src="./index.js"></script>
+
+    <script type="text/javascript">
+        jQuery(function($){
+            $('#my_image').click(function(){
+                var img = $(this).attr("src");
+                var appear_image = "<div id='appear_image_div' onClick='close_Image()'></div>";
+                appear_image = appear_image.concat("<img id='appear_image' src='"+img+"' />");
+                /*appear_image = appear_image.concat("<img id='close_image' onClick='close_Image()' />"); */
+                $('body').append(appear_image);
+            });
+        });
+        function close_Image(){
+            $('#appear_image_div').remove();
+            $('#appear_image').remove();
+            /*$('#close_image').remove(); */
+        }
+
+        jQuery(function($){
+            $('#my_image2').click(function(){
+                var img = $(this).attr("src");
+                var appear_image = "<div id='appear_image_div' onClick='close_Image()'></div>";
+                appear_image = appear_image.concat("<img id='appear_image' src='"+img+"' />");
+                $('body').append(appear_image);
+            });
+        });
+        function close_Image(){
+            $('#appear_image_div').remove();
+            $('#appear_image').remove();
+        }
+    </script> 
+    
+</head>
+<body text="white">
+
+    <div class="logo">
+        <img src="images/logo3.png" height="60">
+        <p><strong>Jhon Francis A. Duarte</strong> <br>
+        <em>BSIT - 2</em><sup>   2021</sup></p>
+    </div>
+
+    <div class="nav">
+        <ul>
+            <li class="dropdown">
+                <a href="#prelim" class="drop" class="dropbtn">PRELIM</a>
+                <div class="dropdown-content">
+                    <a class="weeklink" href="#week1">Week 1</a>
+                    <a class="weeklink" href="#week2">Week 2</a>
+                    <a class="weeklink" href="#week3">Week 3</a>
+                    <a class="weeklink" href="#week4">Week 4</a>
+                    <a class="weeklink" href="#prelimexam">Prelim Exam</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#midterm" class="drop" class="dropbtn">MIDTERM</a>
+                <div class="dropdown-content">
+                    <a class="weeklink" href="#week5">Week 5</a>
+                    <a class="weeklink" href="#week6">Week 6</a>
+                    <a class="weeklink" href="#week7">Week 7</a>
+                    <a class="weeklink" href="#week8">Week 8</a>
+                    <a class="weeklink" href="#midtermexam">Midterm Exam</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#final" class="drop" class="dropbtn">FINALS</a>
+                <div class="dropdown-content">
+                    <a class="weeklink" href="#week9">Week 9</a>
+                    <a class="weeklink" href="#week10">Week 10</a>
+                    <a class="weeklink" href="#finalmexam">Final Exam</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="my-head"></div>
+    <div class="guide">
+        <h6>Move the logo:</h6>
+        <p>
+scroll up and down to zoom <br>
+click and drag to rotate
+        </p>
+    </div>
+
+<div class="content">
+
+        <center>
+            <div class="wcc">     
+                <div class="wcclogo">
+                    <div class="logoAnim">
+                        <img src="images/l1.png" height="18px">
+                    </div>
+                    <div class="logoAnim2">
+                        <img src="images/l2.png" height="30px">
+                    </div>
+                    <div class="logoAnim3">
+                        <img src="images/l3.png" height="20px">
+                    </div>
+                    <div class="logoAnim4">
+                        <img src="images/l4.png" height="16px">
+                    </div>
+                </div> 
+                <div class="wccLetterLogo">
+                    <div class="wcc1">
+                        <img src="images/wcc1.png" height="100px">
+                    </div>
+                    <div class="wcc2">
+                        <img src="images/wcc2.png" height="100px">
+                    </div>
+                    <div class="wcc3">
+                        <img src="images/wcc2.png" height="100px">
+                    </div>
+                </div>
+            </div>
+            <pre>Prof. Wilfredo Tomas</pre>
+            <h1>IT 203 Portfolio</h1>
+            <pre>2<sup>nd</sup> Yr. 1<sup>st</sup> Semester | Prelim-Final period</pre>
+            <br><br><br>
+            <h2 id="prelim">Prelim</h2>
+        </center>
+
+    <div class="prelimenary">
+        <div class="week1">
+            <h3 id="week1">Week 1</h3>
+            <h4>Introduction to Object Oriented Programing</h4>
+            <p>Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic. An object can be defined as a data field that has unique attributes and behavior.</p>
+            <p>Discussions:</p>
+            <ul>
+                <li>Meaning of OOP</li>
+                <li>OOP concepts</li>
+                <li>How objects made</li>
+                <li>Examples of an Object</li>
+                <li>Characteristics or properties of an Object and its properties/functions/behavior</li>
+                <li>Creating a main class and an object class</li>
+                <li>Instantiating the object class to the main class and output the objects contents</li>
+            </ul>
+            <br><br>
+            <center>
+                <div class="learnings">
+                    <h5>Learnings :</h5>
+                    <p>        I have learned that Object Oriented Programing is a programming model that separate an obect from the main class. OOP makes your program more organized and uniformed.</p>
+                </div>
+            </center>
+            <h4>Activity</h4>
+            <pre>Prelim Activity 1</pre>
+            <div class="activity">
+                
+                <div class="col1">
+                    <em>Main Class</em><br><br>
+                    <textarea readonly>
+    package mainsample;
+
+        public class AClassSample {
+
+        public static void main(String[] args) {
+        Car mycar = new Car()
+                                                                
+        mycar.printmyBrand();
+        mycar.myTagline();
+        System.out.println("\nToyota latest Model\n");
+        mycar.printmySpecs();
+        }
+                                            
+    }
+                    </textarea>
+                </div>
+                <br>
+                <div class="col2">
+                    <em>Object Car class</em><br><br>
+                    <textarea readonly>
+                    package mainsample;
+
+                    public class Car {
+                        String carColor = "Green";
+                        double carWeight = 800;
+                        String carBrand = "Toyota";
+                        String carModel = "Vios";
+                        int carSpeed = 200;
+                        int carFuelCap = 10;
+                                        
+                        public static final String GREEN = "\033[0;32m";
+                                        
+                        public void myTagline(){
+                        System.out.println("Let's Go Places");
+                        }   
+                        public void printmyBrand(){
+                        System.out.println(GREEN + carBrand);
+                        } 
+                        public void printmySpecs(){
+                        System.out.println(carBrand + " : " + carModel + " "+ carColor);
+                        System.out.println("Speed : " + carSpeed + "mph");
+                        System.out.println("Fuel Capacity : " + carFuelCap + "liters" );
+                        }   
+                    }
+                    </textarea>
+                </div>
+                <br>
+                <center>
+                    <div>
+                        <img src="images/act1image.jpg" height="200">
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="week2">
+            <h3 id="week2">Week 2</h3>
+            <h4>Encapsulation</h4>
+            <p>Encapsulation is one of the fundamentals of OOP (object-oriented programming). It refers to the bundling of data with the methods that operate on that data. Encapsulation is used to hide the values or state of a structured data object inside a class, preventing unauthorized parties' direct access to them.</p>
+            <p>Discussions:</p>
+            <ul>
+                <li>Reassigning the a value of a variable in the object class in the main class</li>
+                <li>Creating a getter and setter method</li>
+                <li>Reassigning value using getter and setter method</li>
+            </ul>
+            <center>
+                <div class="learnings">
+                    <h5>Learnings :</h5>
+                    <p>        I have learned that it is more secure to have a getter and setter method in maniputing data in your object.</p>
+                </div>
+            </center>
+            <h4>Activity</h4>
+            <pre>Prelim Activity 2</pre>
+            <div class="activity">
+                
+                <div class="col1">
+                    <em>Main Class</em><br><br>
+                    <textarea readonly>
+                        package project1;
+                        public class Project1 {
+                        
+                            public static void main(String[] args) {
+                                Stu stud = new Stu();
+                                
+                            
+                                stud.setFirstName("Jhon Francis");
+                                stud.setMiddleName("Ausa"); 
+                                stud.setLastName("duarte");
+                                stud.setCourse("BSIT");
+                                stud.setAge(28);
+
+                                System.out.println(stud.getFirstName());
+                                System.out.println(stud.getMiddleName());
+                                System.out.println(stud.getLastName());
+                                System.out.println(stud.getCourse());
+                                System.out.println(stud.getAge());
+                            
+                            }   
+                        }
+                    </textarea>
+                </div>
+                <br>
+                <div class="col2">
+                    <em>Object Student class</em><br><br>
+                    <textarea readonly>
+                        package project1;
+                        public class Stu {
+                            String firstName = "Luis";
+                            String middleName = "M";
+                            String lastName = "Reambonanza";
+                            String course = "BSIT";
+                            int age = 32;
+                            
+                            public void printMyName(){
+                                System.out.println("Hello World!");
+                            }
+                            
+                            public void printMyCourse(){
+                                System.out.println(course);
+                            }
+                            //Getter, Setter
+                            
+                            public String getFirstName(){
+                                return firstName;
+                            }
+                            public String getMiddleName(){
+                                return middleName;
+                            }
+                            public String getLastName(){
+                                return lastName;
+                            }
+                            public String getCourse(){
+                                return course;
+                            }
+                            public int getAge(){
+                                return age;
+                            }
+                            
+                            public void setFirstName(String firstName){
+                                this.firstName = firstName;
+                            }
+                            public void setMiddleName(String middleName){
+                                this.middleName = middleName;
+                            }
+                            public void setLastName(String lastName){
+                                this.lastName = lastName;
+                            }
+                            public void setCourse(String course){
+                                this.course = course;
+                            }
+                            public void setAge(int age){
+                                this.age = age;
+                            }
+                            public void me(String surname, String firstname, String middlename, String course, int age){
+                            System.out.println(surname+ ","+firstname+" "+middlename);
+                            System.out.println(course);
+                            System.out.println(age);
+                            }
+                        }
+                    </textarea>
+                </div>
+                <br>
+                <center>
+                    <div>
+                        <img src="images/act2image.jpg" height="200">
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="week3">
+            <h3 id="week3">Week 3</h3>
+            <h4>Object: calculations</h4>
+            <p>Discussions:</p>
+            <ul>
+                <li>Create a funtion with arguments in the calcution object</li>
+                <li>Function that compute the area of the rectangle</li>
+                <li>Function that compute the area of the triangle</li>
+            </ul>
+            <center>
+                <div class="learnings">
+                    <h5>Learnings :</h5>
+                    <p>        It is easier to have a calculations in the main class when all the logics are separated in an object. It creates less crowded main class. Arguments in a funtion is the inputs you will get from the user or is what you will put in the main class.</p>
+                </div>
+            </center>
+            <h4>Activity</h4>
+            <pre>Prelim Activity 3.1</pre>
+            <div class="activity">
+                
+                <div class="col1">
+                    <em>Main Class</em><br><br><br>
+                    <textarea readonly>
+                        package project1;
+                        public class Project1 {
+                        
+                            public static void main(String[] args) {
+                                Calculator cal = new Calculator();
+                                cal.convertToFahr(10);
+                                cal.convertToCel(200);
+                            } 
+                        }
+
+                    </textarea>
+                </div>
+                <br>
+                <div class="col2">
+                    <em>Object Calculator class</em><br><br>
+                    <textarea readonly>
+                        package project1;<br>
+                        public class Calculator {
+                        public void convertToFahr(double celcius){
+                            double fahrenhiet = (celcius * 9/5)+ 32;
+                            System.out.println("Fahrenhiet is equals to : "+fahrenhiet);
+                        }
+                        public void convertToCel(double fahr){
+                            double cels = (fahr - 32) * 5/9;
+                            System.out.println("Celcius is equals to : "+cels);
+                        }
+                        }
+
+                    </textarea>
+                </div>
+                <br>
+                <center>
+                    <div>
+                        <img src="images/act3image.jpg" height="200" width="400">
+                    </div>
+                </center>
+            </div><br>
+            <pre>Prelim Activity 3.2</pre>
+            <div class="activity">
+                
+                <div class="col1">
+                    <em>Main Class</em><br><br><br>
+                    <textarea readonly>
+                        package project1;
+                        public class Project1 {
+                        
+                            public static void main(String[] args) {
+                                Stu stud = new Stu();
+                                stud.me("Duarte","JhonFrancis", "Ausa", "BSIT", 28);
+                            } 
+                        }
+                    </textarea>
+                </div>
+                <br>
+                <div class="col2">
+                    <em>Object Stu class</em><br><br>
+                    <textarea readonly>
+                    package project1;
+                    public class Stu {
+                        public void me(String surname, String firstname, String middlename, String course, int age){
+                        System.out.println(surname+ ","+firstname+" "+middlename);
+                        System.out.println(course);
+                        System.out.println(age);
+                        }
+                    }
+                    </textarea>
+                </div>
+                <br>
+                <center>
+                    <div>
+                        <img src="images/act4image.jpg" height="200" width="400">
+                    </div>
+                </center>
+            </div>
+        
+        </div>
+        <div class="week4">
+            <h3 id="week4">Week 4</h3>
+            <h4>Transactional or Process Object</h4>
+            <p>All the value of the attributes of an object are set in one function. The function contains numbers of arguments depending on how many variables you want to set its value.</p>
+            <p>Discussions:</p>
+            <ul>
+                <li>Creating a function with multiple arguments</li>
+                <li>Setting the value of each argument in the main class inside the instantiation of the object.</li>
+            </ul>
+            <center>
+                <div class="learnings">
+                    <h5>Learnings :</h5>
+                    <p>        This way of creating a function is more compressed and less codes. It is more convinient for me.</p>
+                </div>
+            </center>
+            <h4>Activity</h4>
+            <pre>Prelim Activity 4</pre>
+            <div class="activity">
+                <div class="col1">
+                    <em>Main Class</em><br><br>
+                    <textarea readonly>
+                    package project1;
+                        public class Project1 {
+                            public static void main(String[] args) {
+                            //Instance Reference
+                            Cellphone cp = new Cellphone("HONOR","Honor 10 lite","Black","HGH-93838863","120 mp","12x18 inches");
+                            System.out.println(cp.getMybrand()+" \n"+cp.getMyModel()+" \n"+cp.getColor()+" \n"+cp.getSerialNumber()+" \n"+cp.getCamera()+" \n"+cp.getScreenSize());
+                            }
+                        }
+                    </textarea>
+                </div>
+                <br>
+                <div class="col2">
+                    <em>Object Cellphone class</em><br><br>
+                    <textarea readonly>
+                    package project1;
+                        public class Cellphone {
+                        String brand, model, color, serialNumber,camera,screenSize;
+                        public Cellphone(String brand, String model, String color, String serialNumber, String camera,String screenSize){
+                            this.brand = brand;
+                            this.model = model;
+                            this.serialNumber = serialNumber;
+                            this.camera = camera;
+                            this.screenSize = screenSize;
+                        }
+                        public String getMybrand(){
+                            return this.brand;
+                        }
+                        public String getMyModel(){
+                            return this.model;
+                        }
+                        public String getColor(){
+                            return this.color;
+                        }
+                        public String getSerialNumber(){
+                            return this.serialNumber;
+                        }
+                        public String getCamera(){
+                            return this.camera;
+                        }
+                        public String getScreenSize(){
+                            return this.screenSize;
+                        }   
+                    }     
+                    </textarea>
+                </div>
+                <br>
+                <center>
+                    <div>
+                        <img src="images/act5image.jpg" height="200" width="400">
+                    </div>
+                </center>
+            </div>
+        </div>
+        <br><br>
+        <div class="prelimExam exam" id="prelimexam">
+            <center><h1>Prelim Exam</h1></center><br><br>
+            <em>Main Class</em><br><br>
+            <textarea readonly>
+                package duarte_prelimit203;
+                public class Duarte_prelimIT203 {
+                    public static void main(String[] args) {
+                
+                      //constructor
+                      Computer comp = new Computer("Dell","Black","15 x 27 inches","Intel Core i7","8 GB","240 GB","13 megapixel",
+                                                    "8 gigahertz","4K ultra HD display", 500);
+                      System.out.println("------- COMPUTER --------");
+                      System.out.println("Brand       : "+comp.getBrand());
+                      System.out.println("Color       : "+comp.getColor());
+                      System.out.println("Screen Size : "+comp.getScreenSize());
+                      System.out.println("CPU         : "+comp.getCPU());
+                      System.out.println("RAM         : "+comp.getRAM());
+                      System.out.println("ROM         : "+comp.getROM());
+                      System.out.println("Web Camera  : "+comp.getCamera());
+                      System.out.println("CPU Speed   : "+comp.getSpeed());
+                      System.out.println("Screen Resulotion : "+comp.getDisplay());
+                      System.out.println("Prize       : "+"$"+comp.getPrize());
+                            //getter & setter
+                      comp.setMyBrand("Sony");
+                      comp.setMyColor("Blue");
+                      comp.setMyScreenSize("11 x 20 inches");
+                      comp.setMyCPU("intel Core i5");
+                      comp.setMyRAM("8 GB");
+                      comp.setMyROM("120 GB");
+                      comp.setMyCamera("8 megapixel");
+                      comp.setMySpeed("6 gigahertz");
+                      comp.setMyDisplay("4k HD LCD display");
+                      comp.setMyPrize(300);
+                      System.out.println("\n------- COMPUTER --------");
+                      System.out.println("Brand       : "+comp.getBrand());
+                      System.out.println("Color       : "+comp.getColor());
+                      System.out.println("Screen Size : "+comp.getScreenSize());
+                      System.out.println("CPU         : "+comp.getCPU());
+                      System.out.println("RAM         : "+comp.getRAM());
+                      System.out.println("ROM         : "+comp.getROM());
+                      System.out.println("Web Camera  : "+comp.getCamera());
+                      System.out.println("CPU Speed   : "+comp.getSpeed());
+                      System.out.println("Screen Resulotion : "+comp.getDisplay());
+                      System.out.println("Prize       : "+"$"+comp.getPrize());
+                
+                       //constructor   
+                      Animals hayop = new Animals("Mammals","Elephant","Female","Loxodonta","Africa","Black","Herbivore","Land", 
+                                                  50000, 50000);
+                      System.out.println("\n\n------- ANIMALS --------");
+                      System.out.println("Animal type     : "+hayop.getType());
+                      System.out.println("Name            : "+hayop.getName());
+                      System.out.println("Sex             : "+hayop.getSex());
+                      System.out.println("Scientific Name : "+hayop.getSciName());
+                      System.out.println("Native Location : "+hayop.getLocation());
+                      System.out.println("Color           : "+hayop.getColor());
+                      System.out.println("Food type       : "+hayop.getFoodType());
+                      System.out.println("Natural Habitat : "+hayop.getNatHabitat());
+                      System.out.println("Estimated poputation : "+hayop.getPopulation());
+                      System.out.println("Prize           : "+"$"+hayop.getPrize());
+                            //getter & setter
+                      hayop.setMyType("Reptile");
+                      hayop.setMyName("Snake: Anaconda");
+                      hayop.setMySex("Female");
+                      hayop.setMySciName("Eunectes murinus");
+                      hayop.setMyLocation("Amazon");
+                      hayop.setMyColor("Black and yellow");
+                      hayop.setMyFoodType("Carnivore");
+                      hayop.setMyNatHabitat("Land and water");
+                      hayop.setMyPopulation(300000);
+                      hayop.setMyPrize(2000);
+                      System.out.println("\n------- ANIMALS --------");
+                      System.out.println("Animal type     : "+hayop.getType());
+                      System.out.println("Name            : "+hayop.getName());
+                      System.out.println("Sex             : "+hayop.getSex());
+                      System.out.println("Scientific Name : "+hayop.getSciName());
+                      System.out.println("Native Location : "+hayop.getLocation());
+                      System.out.println("Color           : "+hayop.getColor());
+                      System.out.println("Food type       : "+hayop.getFoodType());
+                      System.out.println("Natural Habitat : "+hayop.getNatHabitat());
+                      System.out.println("Estimated poputation : "+hayop.getPopulation());
+                      System.out.println("Prize           : "+"$"+hayop.getPrize());
+                    }
+                } 
+            </textarea>
+            <br><br>
+            <em>Object Computer</em><br><br>
+            <textarea readonly>
+                package duarte_prelimit203;
+                public class Computer {
+                    String compBrand,compColor,compScreenSize,compCPU,compRAM,compROM,compCamera,compSpeed,compDisplay;
+                    int compPrize;
+                    //constructor
+                    public Computer(String compBrand, String compColor, String compScreenSize, String compCPU, String compRAM, 
+                            String compROM,String compCamera,String compSpeed, String compDisplay, int compPrize){
+                        this.compBrand = compBrand;
+                        this.compColor = compColor;
+                        this.compScreenSize = compScreenSize;
+                        this.compCPU = compCPU;
+                        this.compRAM = compRAM;
+                        this.compROM = compROM;
+                        this.compCamera = compCamera;
+                        this.compSpeed = compSpeed;
+                        this.compDisplay = compDisplay;
+                        this.compPrize = compPrize;
+                    }
+                    //setter
+                        public void setMyBrand(String compBrand){
+                        this.compBrand = compBrand;
+                    }
+                    public void setMyColor(String compColor){
+                        this.compColor = compColor;
+                    }
+                    public void setMyScreenSize(String compScreenSize){
+                        this.compScreenSize = compScreenSize;
+                    }
+                    public void setMyCPU(String compCPU){
+                        this.compCPU = compCPU;
+                    }
+                    public void setMyRAM(String compRAM){
+                        this.compRAM = compRAM;
+                    }
+                    public void setMyROM(String compROM){
+                        this.compROM = compROM;
+                    }
+                    public void setMyCamera(String compCamera){
+                        this.compCamera = compCamera;
+                    }
+                    public void setMySpeed(String compSpeed){
+                        this.compSpeed = compSpeed;
+                    }
+                    public void setMyDisplay(String compDisplay){
+                        this.compDisplay = compDisplay;
+                    }
+                    public void setMyPrize(int compPrize){
+                        this.compPrize = compPrize;
+                    }
+                    //getter
+                    public String getBrand(){
+                        return this.compBrand;
+                    } 
+                    public String getColor(){
+                        return this.compColor;
+                    } 
+                    public String getScreenSize(){
+                        return this.compScreenSize;
+                    }
+                    public String getCPU(){
+                        return this.compCPU;
+                    }
+                    public String getRAM(){
+                        return this.compRAM;
+                    }
+                    public String getROM(){
+                        return this.compROM;
+                    }
+                    public String getCamera(){
+                        return this.compCamera;
+                    }
+                    public String getSpeed(){
+                        return this.compSpeed;
+                    }
+                    public String getDisplay(){
+                        return this.compDisplay;
+                    }
+                    public int getPrize(){
+                        return this.compPrize;
+                    }   
+                }
+            </textarea>
+            <br><br>
+            <em>Object Animals</em><br><br>
+            <textarea readonly>
+                package duarte_prelimit203;
+                public class Animals {
+                    String animalType,animalName,animalSex,animalScientificName,animalLocation,animalColor,
+                           animalFoodtype,animalNaturalHabitat;
+                    int animalPopulation,animalPrize;
+                    //constructor
+                    public Animals(String animalType, String animalName, String animalSex, String animalScientificName, String animalLocation, 
+                            String animalColor,String animalFoodtype,String animalNaturalHabitat, int animalPopulation, 
+                            int animalPrize){
+                        this.animalType = animalType;
+                        this.animalName = animalName;
+                        this.animalSex = animalSex;
+                        this.animalScientificName = animalScientificName;
+                        this.animalLocation = animalLocation;
+                        this.animalColor = animalColor;
+                        this.animalFoodtype = animalFoodtype;
+                        this.animalNaturalHabitat = animalNaturalHabitat;
+                        this.animalPopulation = animalPopulation;
+                        this.animalPrize = animalPrize;
+                    }
+                        //setter
+                    public void setMyType(String animalType){
+                        this.animalType = animalType;
+                    }
+                    public void setMyName(String animalName){
+                        this.animalName = animalName;
+                    }
+                    public void setMySex(String animalSex){
+                        this.animalSex = animalSex;
+                    }
+                    public void setMySciName(String animalScientificName){
+                        this.animalScientificName = animalScientificName;
+                    }
+                    public void setMyLocation(String animalLocation){
+                        this.animalLocation = animalLocation;
+                    }
+                    public void setMyColor(String animalColor){
+                        this.animalColor = animalColor;
+                    }
+                    public void setMyFoodType(String animalFoodtype){
+                        this.animalFoodtype = animalFoodtype;
+                    }
+                    public void setMyNatHabitat(String animalNaturalHabitat){
+                        this.animalNaturalHabitat = animalNaturalHabitat;
+                    }
+                    public void setMyPopulation(int animalPopulation){
+                        this.animalPopulation = animalPopulation;
+                    }
+                    public void setMyPrize(int animalPrize){
+                        this.animalPrize = animalPrize;
+                    }
+                //getter
+                    public String getType(){
+                        return this.animalType;
+                    } 
+                    public String getName(){
+                        return this.animalName;
+                    } 
+                    public String getSex(){
+                        return this.animalSex;
+                    }
+                    public String getSciName(){
+                        return this.animalScientificName;
+                    }
+                    public String getLocation(){
+                        return this.animalLocation;
+                    }
+                    public String getColor(){
+                        return this.animalColor;
+                    }
+                    public String getFoodType(){
+                        return this.animalFoodtype;
+                    }
+                    public String getNatHabitat(){
+                        return this.animalNaturalHabitat;
+                    }
+                    public int getPopulation(){
+                        return this.animalPopulation;
+                    }
+                    public int getPrize(){
+                        return this.animalPrize;
+                    }
+                }
+            </textarea>
+            <br>
+                <center>
+                    <div>
+                        <pre>Output :</pre>
+                        <img src="images/prelim.jpg" height="400">
+                    </div>
+                </center>
+        </div>
+    </div>
+    <br><br>
+    <center><h2 id="midterm">Midterm</h2></center>
+    <div class="midterm">
+        <div class="week5">
+            <h3 id="week5">Week 5</h3>
+            <h4>Java Swing | Java Forms</h4>
+            <p>Swing is a GUI widget toolkit for Java. It is part of Oracle's Java Foundation Classes – an API for providing a graphical user interface for Java programs. Swing was developed to provide a more sophisticated set of GUI components than the earlier Abstract Window Toolkit.</p>
+            <p>Discussions:</p>
+            <ul>
+                <li>Creating a simple Java Form</li>
+                <li>Login Form</li>
+                <li>Home Form</li>
+            </ul>
+            <center>
+                <div class="learnings">
+                    <h5>Learnings :</h5>
+                    <p>I have learned how to create a simple java form with some functionalities.</p>
+                </div>
+            </center>
+            <h4>Activity</h4>
+            <pre>Midterm activity 1</pre>
+            <br>
+            <div class="activity">
+                <pre>Textfileds and button logic/math below</pre><br>
+                <textarea readonly>
+                    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+                        this.setVisible(false);
+                        new NewJFrame2().setVisible(true);
+                    }                                        
+                
+                    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+                        try {double pme = Double.parseDouble(pME.getText());
+                        double pcs = Double.parseDouble(pCS.getText());
+                        double pa = Double.parseDouble(pA.getText());
+                        double pq = Double.parseDouble(pQ.getText());
+                        double pgme = pme * .40; double pgcs = pcs * .30; double pga = pa * .20; double pgq = pq * .10;
+                        double pggrade = pgme + pgcs + pga + pgq;
+                        pgrade.setText(""+pggrade);
+                        }catch (NumberFormatException o){ 
+                                        JOptionPane.showMessageDialog(null, "Enter Valid Number", "Just Numbers", JOptionPane.INFORMATION_MESSAGE);}
+                    }                                        
+                
+                    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+                        try {double mme = Double.parseDouble(mME.getText());
+                        double mcs = Double.parseDouble(mCS.getText());
+                        double ma = Double.parseDouble(mA.getText());
+                        double mq = Double.parseDouble(mQ.getText());
+                        double mgme = mme * .40; double mgcs = mcs * .30; double mga = ma * .20; double mgq = mq * .10;
+                        double mggrade = mgme + mgcs + mga + mgq;
+                        mgrade.setText(""+mggrade);
+                        }catch (NumberFormatException o){ 
+                                        JOptionPane.showMessageDialog(null, "Enter Valid Number", "Just Numbers", JOptionPane.INFORMATION_MESSAGE);}
+                    }                                        
+                
+                    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+                        try {double fme = Double.parseDouble(fME.getText());
+                        double fcs = Double.parseDouble(fCS.getText());
+                        double fa = Double.parseDouble(fA.getText());
+                        double fq = Double.parseDouble(fQ.getText());
+                        double fgme = fme * .40; double fgcs = fcs * .30; double fga = fa * .20; double fgq = fq * .10;
+                        double fggrade = fgme + fgcs + fga + fgq;
+                        fgrade.setText(""+fggrade);
+                        }catch (NumberFormatException o){ 
+                                        JOptionPane.showMessageDialog(null, "Enter Valid Number", "Just Numbers", JOptionPane.INFORMATION_MESSAGE);}
+                    }                                        
+                
+                    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+                        try { double fpgrade = Double.parseDouble(pgrade.getText());
+                        double fmgrade = Double.parseDouble(mgrade.getText());
+                        double ffgrade = Double.parseDouble(fgrade.getText());
+                        double sgrade = (fpgrade + fmgrade + ffgrade) / 3;
+                        semgrade.setText(""+sgrade);
+                        double sg = Double.parseDouble(semgrade.getText());
+                        if (sg >=98.0000){ remark.setText("1.00 Excellent");}
+                        else if(sg >=95.0000 && sg <=97.9900){ remark.setText("1.25 Above Average");}
+                        else if(sg >=92.0000 && sg <=94.9900){ remark.setText("1.50 Above Average");}
+                        else if(sg >=89.0000 && sg <=91.9900){ remark.setText("1.75 Average");}
+                        else if(sg >=86.0000 && sg <=88.9900){ remark.setText("2.00 Average");}
+                        else if(sg >=83.0000 && sg <=85.9900){ remark.setText("2.25 Average");}
+                        else if(sg >=80.0000 && sg <=82.9900){ remark.setText("2.50 Fair");}
+                        else if(sg >=77.0000 && sg <=79.9900){ remark.setText("2.75 Fair");}
+                        else if(sg >=75.0000 && sg <=76.9900){ remark.setText("3.00 Passed");}
+                        else if( sg <75.0000){remark.setText("5.00 Failed");}
+                        }catch (NumberFormatException o){ 
+                                        JOptionPane.showMessageDialog(null, "Enter Valid Number", "Just Numbers", JOptionPane.INFORMATION_MESSAGE);}
+                
+                
+                    }                                        
+                
+                    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+                        pME.setText(null);pCS.setText(null);pA.setText(null);pQ.setText(null);pgrade.setText(null);
+                        mME.setText(null);mCS.setText(null);mA.setText(null);mQ.setText(null);mgrade.setText(null);
+                        fME.setText(null);fCS.setText(null);fA.setText(null);fQ.setText(null);fgrade.setText(null);
+                        semgrade.setText(null);remark.setText(null);
+                        
+                    }                                        
+                
+                    /**
+                     * @param args the command line arguments
+                     */
+                    public static void main(String args[]) {
+                        /* Set the Nimbus look and feel */
+                        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+                        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+                         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+                         */
+                        try {
+                            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                                if ("Nimbus".equals(info.getName())) {
+                                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                                    break;
+                                }
+                            }
+                        } catch (ClassNotFoundException ex) {
+                            java.util.logging.Logger.getLogger(gradecompute.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+                        } catch (InstantiationException ex) {
+                            java.util.logging.Logger.getLogger(gradecompute.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+                        } catch (IllegalAccessException ex) {
+                            java.util.logging.Logger.getLogger(gradecompute.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+                        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+                            java.util.logging.Logger.getLogger(gradecompute.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+                        }
+                        //</editor-fold>
+                
+                        /* Create and display the form */
+                        java.awt.EventQueue.invokeLater(new Runnable() {
+                            public void run() {
+                                new gradecompute().setVisible(true);
+                            }
+                        });
+                    }
+                
+                    // Variables declaration - do not modify                     
+                    private javax.swing.JTextField fA;
+                    private javax.swing.JTextField fCS;
+                    private javax.swing.JTextField fME;
+                    private javax.swing.JTextField fQ;
+                    private javax.swing.JLabel fgrade;
+                    private javax.swing.JButton jButton1;
+                    private javax.swing.JButton jButton2;
+                    private javax.swing.JButton jButton3;
+                    private javax.swing.JButton jButton4;
+                    private javax.swing.JButton jButton5;
+                    private javax.swing.JButton jButton6;
+                    private javax.swing.JLabel jLabel1;
+                    private javax.swing.JLabel jLabel10;
+                    private javax.swing.JLabel jLabel11;
+                    private javax.swing.JLabel jLabel12;
+                    private javax.swing.JLabel jLabel13;
+                    private javax.swing.JLabel jLabel14;
+                    private javax.swing.JLabel jLabel15;
+                    private javax.swing.JLabel jLabel16;
+                    private javax.swing.JLabel jLabel17;
+                    private javax.swing.JLabel jLabel18;
+                    private javax.swing.JLabel jLabel19;
+                    private javax.swing.JLabel jLabel2;
+                    private javax.swing.JLabel jLabel20;
+                    private javax.swing.JLabel jLabel21;
+                    private javax.swing.JLabel jLabel22;
+                    private javax.swing.JLabel jLabel23;
+                    private javax.swing.JLabel jLabel24;
+                    private javax.swing.JLabel jLabel25;
+                    private javax.swing.JLabel jLabel3;
+                    private javax.swing.JLabel jLabel4;
+                    private javax.swing.JLabel jLabel5;
+                    private javax.swing.JLabel jLabel6;
+                    private javax.swing.JLabel jLabel7;
+                    private javax.swing.JLabel jLabel8;
+                    private javax.swing.JLabel jLabel9;
+                    private javax.swing.JPanel jPanel3;
+                    private javax.swing.JTextField mA;
+                    private javax.swing.JTextField mCS;
+                    private javax.swing.JTextField mME;
+                    private javax.swing.JTextField mQ;
+                    private javax.swing.JLabel mgrade;
+                    private javax.swing.JTextField pA;
+                    private javax.swing.JTextField pCS;
+                    private javax.swing.JTextField pME;
+                    private javax.swing.JTextField pQ;
+                    private javax.swing.JLabel pgrade;
+                    private javax.swing.JLabel remark;
+                    private javax.swing.JLabel semgrade;
+                    // End of variables declaration                   
+                }
+                </textarea>
+                <br><br>
+                <center>
+                    <div>
+                        <img src="images/act7image.jpg" height="485">
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="week6">
+            <h3 id="week6">Week 5</h3>
+            <h4>JOptionPane</h4>
+            <p>The JOptionPane is a subclass of JComponent class which includes static methods for creating and customizing modal dialog boxes using a simple code. The JOptionPane is used instead of JDialog to minimize the complexity of the code. The JOptionPane displays the dialog boxes with one of the four standard icons (question, information, warning, and error) or the custom icons specified by the user.</p>
+            <p>Discussions:</p>
+            <ul>
+                <li>Using JOptionPane to show popup message</li>
+                <li>Using JOptionPane to show calulation output</li>
+            </ul>
+            <center>
+                <div class="learnings">
+                    <h5>Learnings :</h5>
+                    <p>JOptionPane is very usefull when you have a form that has a required-to-fill the input areas. For instance, JOptionPane pane will show a message telling all area must be filled if there is an area unfilled.</p>
+                </div>
+            </center>
+            <h4>Activity</h4>
+            <pre>Midterm activity 2</pre>
+            <br>
+            <div class="activity">
+                <p>Kilo to Pound converter</p>
+                <pre>Textfiled and button logic/math below</pre><br>
+                <textarea readonly>
+                    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+                        try { 
+                           double kilo = Double.parseDouble(txtKilo.getText());
+                           double pound = kilo * 2.20462;
+                           JOptionPane.showMessageDialog(null, "Pound is equal to "+pound);
+                       }catch (NumberFormatException o){ 
+                                       JOptionPane.showMessageDialog(null, "Enter Valid Number", "Just Numbers", JOptionPane.INFORMATION_MESSAGE);}
+                                                        
+               
+                   } 
+                </textarea>
+                <br><br>
+                <center>
+                    <div>
+                        <img src="images/act8image.jpg" height="300">
+                    </div>
+                </center>
+            </div>
+            <br><br>
+            <pre>Midterm activity 2</pre>
+            <div class="activity">
+                <p>Salary Computation</p>
+                <pre>Textfiled and button logic/math below</pre><br>
+                <textarea readonly>
+                    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+                        try { 
+                            String name = txtName.getText();
+                            String emNum = txtEmNum.getText();
+                            double rate = Double.parseDouble(txtRatePerHour.getText());
+                            double hourPerMonth = Double.parseDouble(txtHourPerMonth.getText());
+                            double salary = rate * hourPerMonth;
+                            JOptionPane.showMessageDialog(null, name + " \n" + emNum + "\nRate per Hour : " + rate + "\nNo. Hours per Month : " + hourPerMonth + "\nSalary : " + salary);
+                        }catch (NumberFormatException o){ 
+                                        JOptionPane.showMessageDialog(null, "Enter Valid Number", "Just Numbers", JOptionPane.INFORMATION_MESSAGE);}
+                    }  
+                </textarea>
+                <br><br>
+                <center>
+                    <div>
+                        <img src="images/act9image.jpg" height="300">
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="week7">
+            <h3 id="week7">Week 7</h3>
+            <h4>Radio button and Check box</h4>
+            <p>A radio button or option button is a graphical control element that allows the user to choose only one of a predefined set of mutually exclusive options. The singular property of a radio button makes it distinct from checkboxes, where in Check boxes the user can select and unselect any number of items.</p>
+            <p>Discussions:</p>
+            <ul>
+                <li>Radio button functions</li>
+                <li>Checkbox functions</li>
+            </ul>
+            <center>
+                <div class="learnings">
+                    <h5>Learnings :</h5>
+                    <p>Usualy radio button is used in an instance where you are going to select only one. Checkbox on the other hand, ables you to select multiple or select none at all.</p>
+                </div>
+            </center>
+            <h4>Activity</h4>
+            <pre>Midterm activity 4</pre>
+            <br>
+            <div class="activity">
+                <p>Radio button and Checkbox</p>
+                <pre>Radio button and check box logic/math below</pre><br>
+               <textarea readonly>
+                private void rad1yrActionPerformed(java.awt.event.ActionEvent evt) {                                       
+                    rad1yr.setSelected(true);
+                    rad2yr.setSelected(false);
+                    rad3yr.setSelected(false);
+                    rad4yr.setSelected(false);
+                    yearLvl = "1st Year";
+                }                                      
+            
+                private void rad2yrActionPerformed(java.awt.event.ActionEvent evt) {                                       
+                    rad1yr.setSelected(false);
+                    rad2yr.setSelected(true);
+                    rad3yr.setSelected(false);
+                    rad4yr.setSelected(false);
+                    yearLvl = "2nd Year";
+                }                                      
+            
+                private void rad3yrActionPerformed(java.awt.event.ActionEvent evt) {                                       
+                    rad1yr.setSelected(false);
+                    rad2yr.setSelected(false);
+                    rad3yr.setSelected(true);
+                    rad4yr.setSelected(false);
+                    yearLvl = "3rd Year";
+                }                                      
+            
+                private void rad4yrActionPerformed(java.awt.event.ActionEvent evt) {                                       
+                    rad1yr.setSelected(false);
+                    rad2yr.setSelected(false);
+                    rad3yr.setSelected(false);
+                    rad4yr.setSelected(true);
+                    yearLvl = "4th Year";
+                }                                      
+            
+                private void chkMathActionPerformed(java.awt.event.ActionEvent evt) {                                        
+                    if(chkMath.isSelected()){
+                        math = "Math Club";
+                    }
+                    else{
+                        math = "";
+                    }
+                }                                       
+            
+                private void chkScienceActionPerformed(java.awt.event.ActionEvent evt) {                                           
+                    if(chkScience.isSelected()){
+                        science = "Science Club";
+                    }
+                    else{
+                        science = "";
+                    }
+                }                                          
+            
+                private void chkICTActionPerformed(java.awt.event.ActionEvent evt) {                                       
+                    if(chkICT.isSelected()){
+                        ict = "ICT Club";
+                    }
+                    else{
+                        ict = "";
+                    }
+                }                                      
+            
+                private void chkSGActionPerformed(java.awt.event.ActionEvent evt) {                                      
+                    if(chkSG.isSelected()){
+                        sg = "SG Club";
+                    }
+                    else{
+                        sg = "";
+                    }
+                } 
+               </textarea>
+                <br><br>
+                <center>
+                    <div>
+                        <img src="images/act11image.jpg" height="300">
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="week8">
+            <h3 id="week8">Week 8</h3>
+            <h4>Combo box and List Box</h4>
+            <p>A combo box is a commonly used graphical user interface widget. Traditionally, it is a combination of a drop-down list or list box and a single-line editable textbox, allowing the user to either type a value directly or select a value from the list. The term "combo box" is sometimes used to mean "drop-down list"</p>
+            <p>A list box is a graphical control element that allows the user to select one or more items from a list contained within a static, multiple line text box. The user clicks inside the box on an item to select it, sometimes in combination with the ⇧ Shift or Ctrl in order to make multiple selections.</p>
+            <p>Discussions:</p>
+            <ul>
+                <li>How list box and combo box is used</li>
+                <li>Creating a Form with list box and combo box</li>
+            </ul>
+            <center>
+                <div class="learnings">
+                    <h5>Learnings :</h5>
+                    <p>List box is very useful in creating receipts or displaying the items you selected in a form or simply a display of results. Combo box is a selection panel that when clicked a dropdown menu will appear. It is useful in minimizing space for your choices menu.</p>
+                </div>
+            </center>
+            <h4>Activity</h4>
+            <pre>Midterm activity 5</pre>
+            <br>
+            <div class="activity">
+                <p>Combo box and List box</p>
+                <pre>Combo box and List box logic/math below</pre><br>
+                <textarea readonly>
+                    public class Home extends javax.swing.JFrame {
+                        String yearLvl = "";
+                        String math="";
+                        String science="";
+                        String ict="";
+                        String sg ="";
+                    
+                        public Home() {
+                            initComponents();
+                        }
+                        private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {                                     
+                            int input = JOptionPane.showConfirmDialog(null, "Are you sure to Exit?", "Exit", JOptionPane.YES_NO_OPTION);
+                            if (input == 0){
+                                System.exit(0);
+                            }
+                        }                                    
+                    
+                        private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {                                     
+                            int input = JOptionPane.showConfirmDialog(null, "Are you sure to Logout?", "Logout", JOptionPane.YES_NO_OPTION);
+                            if (input == 0){
+                                new Log().setVisible(true);
+                                this.dispose();
+                            }
+                        }                                    
+                    
+                        private void rad1yrActionPerformed(java.awt.event.ActionEvent evt) {                                       
+                            rad1yr.setSelected(true);
+                            rad2yr.setSelected(false);
+                            rad3yr.setSelected(false);
+                            rad4yr.setSelected(false);
+                            yearLvl = "1st Year";
+                        }                                      
+                    
+                        private void rad2yrActionPerformed(java.awt.event.ActionEvent evt) {                                       
+                            rad1yr.setSelected(false);
+                            rad2yr.setSelected(true);
+                            rad3yr.setSelected(false);
+                            rad4yr.setSelected(false);
+                            yearLvl = "2nd Year";
+                        }                                      
+                    
+                        private void rad3yrActionPerformed(java.awt.event.ActionEvent evt) {                                       
+                            rad1yr.setSelected(false);
+                            rad2yr.setSelected(false);
+                            rad3yr.setSelected(true);
+                            rad4yr.setSelected(false);
+                            yearLvl = "3rd Year";
+                        }                                      
+                    
+                        private void rad4yrActionPerformed(java.awt.event.ActionEvent evt) {                                       
+                            rad1yr.setSelected(false);
+                            rad2yr.setSelected(false);
+                            rad3yr.setSelected(false);
+                            rad4yr.setSelected(true);
+                            yearLvl = "4th Year";
+                        }                                      
+                    
+                        private void chkMathActionPerformed(java.awt.event.ActionEvent evt) {                                        
+                            if(chkMath.isSelected()){
+                                math = "Math Club";
+                            }
+                            else{
+                                math = "";
+                            }
+                        }                                       
+                    
+                        private void chkScienceActionPerformed(java.awt.event.ActionEvent evt) {                                           
+                            if(chkScience.isSelected()){
+                                science = "Science Club";
+                            }
+                            else{
+                                science = "";
+                            }
+                        }                                          
+                    
+                        private void chkICTActionPerformed(java.awt.event.ActionEvent evt) {                                       
+                            if(chkICT.isSelected()){
+                                ict = "ICT Club";
+                            }
+                            else{
+                                ict = "";
+                            }
+                        }                                      
+                    
+                        private void chkSGActionPerformed(java.awt.event.ActionEvent evt) {                                      
+                            if(chkSG.isSelected()){
+                                sg = "SG Club";
+                            }
+                            else{
+                                sg = "";
+                            }
+                        }                                     
+                    
+                        private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+                            String name = txtName.getText();
+                            String course = (String) cmbCourse.getSelectedItem();
+                            String campus = (String) lstCampus.getSelectedValue();
+                            JOptionPane.showMessageDialog(null,"Name : "+name+"\nCourse : "+course+
+                                    "\nYear Level : "+yearLvl+"\nClubs : \n"+math+" "+science+" "+ict+" "+sg+"\nCampus : "+campus);
+                        }                                        
+                    
+                        // Variables declaration - do not modify                     
+                        private javax.swing.JCheckBox chkICT;
+                        private javax.swing.JCheckBox chkMath;
+                        private javax.swing.JCheckBox chkSG;
+                        private javax.swing.JCheckBox chkScience;
+                        private javax.swing.JComboBox<String> cmbCourse;
+                        private javax.swing.JButton jButton1;
+                        private javax.swing.JLabel jLabel1;
+                        private javax.swing.JLabel jLabel10;
+                        private javax.swing.JLabel jLabel2;
+                        private javax.swing.JLabel jLabel3;
+                        private javax.swing.JLabel jLabel4;
+                        private javax.swing.JLabel jLabel5;
+                        private javax.swing.JLabel jLabel6;
+                        private javax.swing.JLabel jLabel7;
+                        private javax.swing.JLabel jLabel8;
+                        private javax.swing.JLabel jLabel9;
+                        private javax.swing.JScrollPane jScrollPane1;
+                        private javax.swing.JLabel lblBg;
+                        private javax.swing.JList<String> lstCampus;
+                        private javax.swing.JRadioButton rad1yr;
+                        private javax.swing.JRadioButton rad2yr;
+                        private javax.swing.JRadioButton rad3yr;
+                        private javax.swing.JRadioButton rad4yr;
+                        private javax.swing.JTextField txtName;
+                        // End of variables declaration                   
+                    } 
+                </textarea>
+                <br><br>
+                <center>
+                    <div>
+                        <img src="images/act10image.jpg" height="300">
+                    </div>
+                </center>
+            </div>
+            <pre>Midterm activity 6</pre>
+            <br>
+            <div class="activity">
+                <p>List box: Order list</p>
+                <pre>List box: Order list logic/math below</pre><br>
+                <textarea readonly>
+                    int cheesePrice,crispyPrice,quarterPrice,cokePrice,floatPrice,sundaePrice;
+
+                    private void btnCheeseActionPerformed(java.awt.event.ActionEvent evt) {                                          
+                        DefaultListModel<String> model = new DefaultListModel<String>();
+                       for(int i=0; i < lstOrder.getModel().getSize(); i++){
+                           String tempHeader = (String) lstOrder.getModel().getElementAt(i);
+                           model.addElement(tempHeader);
+                       }
+                       cheesePrice = 80;
+                       model.addElement("Cheese Burger..................."+cheesePrice);
+                       lstOrder.setModel(model);
+                    }                                         
+                
+                    private void btnCrispyActionPerformed(java.awt.event.ActionEvent evt) {                                          
+                        DefaultListModel<String> model = new DefaultListModel<String>();
+                       for(int i=0; i < lstOrder.getModel().getSize(); i++){
+                           String tempHeader = (String) lstOrder.getModel().getElementAt(i);
+                           model.addElement(tempHeader);
+                       }
+                       crispyPrice = 105;
+                       model.addElement("Crspy Chckn Burger.........."+crispyPrice);
+                       lstOrder.setModel(model);
+                    }                                         
+                
+                    private void btnQuarterActionPerformed(java.awt.event.ActionEvent evt) {                                           
+                        DefaultListModel<String> model = new DefaultListModel<String>();
+                       for(int i=0; i < lstOrder.getModel().getSize(); i++){
+                           String tempHeader = (String) lstOrder.getModel().getElementAt(i);
+                           model.addElement(tempHeader);
+                       }
+                       quarterPrice = 125;
+                       model.addElement("Qrter Pound Burger..........."+quarterPrice);
+                       lstOrder.setModel(model);
+                    }                                          
+                
+                    private void btnCokeActionPerformed(java.awt.event.ActionEvent evt) {                                        
+                        DefaultListModel<String> model = new DefaultListModel<String>();
+                       for(int i=0; i < lstOrder.getModel().getSize(); i++){
+                           String tempHeader = (String) lstOrder.getModel().getElementAt(i);
+                           model.addElement(tempHeader);
+                       }
+                       cokePrice = 30;
+                       model.addElement("Coke....................................."+cokePrice);
+                       lstOrder.setModel(model);
+                    
+                    }                                       
+                
+                    private void btnCokeFloatActionPerformed(java.awt.event.ActionEvent evt) {                                             
+                         DefaultListModel<String> model = new DefaultListModel<String>();
+                       for(int i=0; i < lstOrder.getModel().getSize(); i++){
+                           String tempHeader = (String) lstOrder.getModel().getElementAt(i);
+                           model.addElement(tempHeader);
+                       }
+                       floatPrice = 50;
+                       model.addElement("Coke Float..........................."+floatPrice);
+                       lstOrder.setModel(model);
+                    }                                            
+                
+                    private void btnSundaeActionPerformed(java.awt.event.ActionEvent evt) {                                          
+                         DefaultListModel<String> model = new DefaultListModel<String>();
+                       for(int i=0; i < lstOrder.getModel().getSize(); i++){
+                           String tempHeader = (String) lstOrder.getModel().getElementAt(i);
+                           model.addElement(tempHeader);
+                       }
+                       sundaePrice = 60;
+                       model.addElement("Sundae................................"+sundaePrice);
+                       lstOrder.setModel(model);
+                    }
+                </textarea>
+                <br><br>
+                <center>
+                    <div>
+                        <img src="images/act12image.jpg" height="300">
+                    </div>
+                </center>
+            </div>
+        </div>
+        <br><br>
+        <div class="midtermExam exam" id="midtermexam">
+            <center><h1>Midterm Exam</h1></center><br><br>
+            <em>My Hotel booking form</em><br><br>
+            <textarea readonly>
+                private void radStandardActionPerformed(java.awt.event.ActionEvent evt) {                                            
+                    radStandard.setSelected(true);
+                    radDeluxe.setSelected(false);
+                    radSuite.setSelected(false);
+                    roomPrefence = "Standard";
+                    
+                }                                           
+            
+                private void radDeluxeActionPerformed(java.awt.event.ActionEvent evt) {                                          
+                    radStandard.setSelected(false);
+                    radDeluxe.setSelected(true);
+                    radSuite.setSelected(false);
+                    roomPrefence = "Deluxe";
+                }                                         
+            
+                private void radSuiteActionPerformed(java.awt.event.ActionEvent evt) {                                         
+                    radStandard.setSelected(false);
+                    radDeluxe.setSelected(false);
+                    radSuite.setSelected(true);
+                    roomPrefence = "Suite";
+                }                                        
+            
+                private void btnResetActionPerformed(java.awt.event.ActionEvent evt) {                                         
+                    txtfName.setText("");
+                    txtlName.setText("");
+                    txtEmail.setText("");
+                    radStandard.setSelected(false);
+                    radDeluxe.setSelected(false);
+                    radSuite.setSelected(false);
+                    cmbRoomType.setSelectedItem(null);
+                    txtCheckinDate.setText("");
+                    txtCheckInTime.setText("");
+                    txtCheckOutDate.setText("");
+                    txtCheckOutTime.setText("");
+                    JOptionPane.showMessageDialog(null, "Cleared");
+                    
+                }                                        
+            
+                private void btnBookActionPerformed(java.awt.event.ActionEvent evt) {                                        
+                    String name = txtfName.getText();
+                    String lname = txtlName.getText();
+                    String email = txtEmail.getText();
+                    String roomType = (String) cmbRoomType.getSelectedItem();
+                    int currentValue = (Integer)spnNumOfGuests.getValue();
+                    String numOfguest = Integer.toString(currentValue);
+                    String chkInDate = txtCheckinDate.getText();
+                    String chkInTime = txtCheckInTime.getText();
+                    String chkOutDate = txtCheckOutDate.getText();
+                    String chkOutTime = txtCheckOutTime.getText();
+                    JOptionPane.showMessageDialog(null, "Name : "+name+" "+lname+"\nEmail : "+email+"\nRoom Type : "+
+                            roomType+"\nNumber of Guests : "+numOfguest+"\nCheck-in Date and Time : "+chkInDate+" "+chkInTime
+                            +"\nCheck-out Date and Time : "+chkOutDate+" "+chkOutTime+"\nRoom Preference : "+roomPrefence);
+                }  
+            </textarea>
+            <br><br>
+                <center>
+                    <div>
+                        <pre>Output :</pre>
+                        <img src="images/act14image.jpg" height="380">
+                    </div>
+                </center>
+        </div>
+    </div>
+    <br><br>
+    <center><h2 id="final">Finals</h2></center>
+    <div class="finals">
+        <div class="week9">
+            <h3 id="week9">Week 9</h3>
+            <h4>Java Aplet</h4>
+            <p>Swing is a GUI widget toolkit for Java. It is part of Oracle's Java Foundation Classes – an API for providing a graphical user interface for Java programs. Swing was developed to provide a more sophisticated set of GUI components than the earlier Abstract Window Toolkit.</p>
+            <p>Discussions:</p>
+            <ul>
+                <li>Draw String</li>
+                <li>Draw/Fill Oval</li>
+                <li>Dral/Fill Rect</li>
+                <li>Colors</li>
+            </ul>
+            <center>
+                <div class="learnings">
+                    <h5>Learnings :</h5>
+                    <p>Java applet is another for of creating a GUI output. In in this topic I have learned how create an art using basic drawing in the applet screen.</p>
+                </div>
+            </center>
+            <h4>Activity</h4>
+            <pre>Finals activity 1</pre>
+            <br>
+            <div class="activity">
+                <p>Emoji</p>
+                <br><br>
+                <center>
+                    <div>
+                        <img src="images/act15image.jpg" height="300">
+                    </div>
+                </center>
+            </div>
+        </div>
+        <br>
+        <div class="week10">
+            <h3 id="week10">Week 10</h3>
+            <h4>Draw Polygon</h4>
+            <p>Polygon is a closed figure with finite set of line segments joining one vertex to the other. The polygon comprises of set of (x, y) coordinate pairs where each pair is the vertex of the polygon. The side of the polygon is the line drawn between two successive coordinate pairs and a line segment is drawn from the first pair to the last pair.</p>
+            <p>Discussions:</p>
+            <ul>
+                <li>Draw a polygon</li>
+                <li>Set of coordinates for polygon</li>
+            </ul>
+            <center>
+                <div class="learnings">
+                    <h5>Learnings :</h5>
+                    <p>It is a bit hard to create a perfect polygon when you are setting its vertices coordinate by guess works. It is hard but its fun at the same time.</p>
+                </div>
+            </center>
+            <h4>Activity</h4>
+            <pre>Finals activity 2</pre>
+            <br>
+            <div class="activity">
+                <p>Create the three famous logo | YouTube, Facebook, Instagram</p>
+                <pre>Logo codes</pre>
+                <textarea readonly>                  
+package firstapplet_it202;
+import java.applet.Applet;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.*;
+import java.awt.geom.Rectangle2D;
+public class FirstApplet_IT202 extends Applet{
+    @Override
+    public void paint(Graphics g){
+        resize(900,410);
+        Graphics2D g2 = (Graphics2D) g;      
+        Color black = new Color(0,0,0);
+        Color white = new Color(255,255,255);
+        Color red = new Color(255, 26, 26);
+        Color yellow = new Color(255,255,0);
+        Color blue = new Color(0,0,255);
+       
+            //logo yt, fb, insta
+            int x[] = {165, 165, 205};
+            int y[] = {195, 245, 220};
+            g.setColor(red);
+            g.fillOval(80, 120, 200, 200);
+            g.setColor(white);
+            g.fillRoundRect(120, 180, 120, 80, 20, 20);
+            g.setColor(red);
+            g.fillPolygon(x, y, 3);
+            g.setColor(blue);
+            g.fillOval(350, 120, 200, 200);
+            g.setColor(white);
+            g.setFont(new Font("BoldFont", Font.BOLD,210));
+            g.drawString("f", 410, 320);
+            g2.setStroke(new BasicStroke(20));
+            g.setColor(black);
+            g.drawRoundRect(630, 120, 200, 200, 70, 70);
+            g.drawOval(685, 175, 90, 90);
+            g.fillOval(775, 145, 30, 30);
+                </textarea>
+                <br><br>
+                <center>
+                    <div>
+                        <img src="images/act16image.jpg" height="300">
+                    </div>
+                </center>
+            </div>
+            <h4>Assignment</h4>
+            <pre>Finals assignment 1</pre>
+            <br>
+            <div class="activity">
+                <p>Create your favorite logo</p>
+                <pre>Logo codes</pre>
+                <textarea readonly>
+                    import java.applet.Applet;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.*;
+public class FirstApplet_IT202 extends Applet{
+    @Override
+    public void paint(Graphics g){
+        resize(410,500);
+        Graphics2D g2 = (Graphics2D) g;
+        
+        Color white = new Color(255,255,255);
+        Color green = new Color(0, 255, 0);
+        Color darkgrey = new Color (115, 115, 115);
+        Color red = new Color(255, 26, 26);
+        Color yellow = new Color(255,255,0);
+        Color blue = new Color(0,0,255);
+      
+        int x[] = {145, 220, 290,200};
+        int y[] = {170, 110, 200,230};
+        
+        int x2[] = {220, 290, 290,165};
+        int y2[] = {200, 200, 300,300};
+        
+        int x3[] = {145, 210, 130,100};
+        int y3[] = {170, 240, 400,190};
+        g.setColor(red);
+        g.fillPolygon(x, y, 4);
+        g.setColor(yellow);
+        g.fillPolygon(x2, y2, 4);
+        g.setColor(green);
+        g.fillPolygon(x3, y3, 4);
+        g2.setStroke(new BasicStroke(140));
+        g.setColor(white);
+        g.drawOval(55, 80, 290, 290);
+        g.fillOval(165, 190, 70, 70);
+        g.setColor(blue);
+        g.fillOval(170, 195, 60, 60);
+        g.setColor(darkgrey);
+        g.fillOval(130, 400, 150, 20);
+                  
+                </textarea>
+                <br><br>
+                <center>
+                    <div>
+                        <img src="images/act18image.jpg" height="300">
+                    </div>
+                </center>
+            </div>
+
+        </div>
+        <br><br>
+        <br><br>
+        <div class="finalExam exam" id="finalmexam">
+            <center><h1>Final Exam</h1></center><br><br>
+            <em>My Personal Logo</em><br><br>
+            <textarea readonly>
+                package firstapplet_it202;
+                import java.applet.Applet;
+                import java.awt.Color;
+                import java.awt.Graphics;
+                import java.awt.*;
+                
+                    public class myLogo extends Applet{
+                        
+                        @Override
+                        public void paint(Graphics g){
+                        resize(410,500);
+                        Graphics2D g2 = (Graphics2D) g;
+                        
+                        Color black = new Color(0,0,0);
+                        Color white = new Color(255,255,255);
+                        
+                        g.setColor(black);
+                        g2.setStroke(new BasicStroke(4));
+                        g.drawOval(55, 80, 290, 290);
+                        // J
+                        g.drawLine(55, 220, 85, 220);
+                        g.drawLine(75, 155, 105, 165);
+                        g.drawLine(137, 96, 137, 200);
+                        g.drawLine(137, 240, 137, 354);
+                        g.drawLine(105, 165, 105, 283);
+                        g.drawArc(85, 167, 35, 115, 180,90);  
+                        // F
+                        g.drawLine(169, 185, 169, 320);
+                        g.drawLine(169, 118, 169, 150);
+                        g.drawLine(169, 150, 225, 150);
+                        g.drawLine(169, 185, 215, 185);
+                        g.drawLine(215, 185, 169, 320);
+                        g.drawArc(140, 110, 130, 90, 60,60);
+                        g.drawLine(235, 118, 225, 150); 
+                        // A
+                        // middle
+                        g.drawLine(235, 215, 207, 305);
+                        g.drawLine(235, 215, 235, 305);
+                        g.drawLine(207, 305, 235, 305);
+                        // legs
+                        g.drawLine(235, 340, 235, 364);
+                        g.drawLine(198, 340, 235, 340);
+                        g.drawLine(198, 340, 190, 365);
+                        // D
+                        g.drawLine(268, 98, 268, 200);
+                        g.drawLine(268, 240, 268, 351);
+                        g.drawLine(296, 165, 296, 283);
+                        g.drawArc(280, 165, 35, 115, 0,90);
+                        g.drawArc(280, 167, 35, 115, 0,-90);
+                        
+                        g.setColor(white);
+                        g.fillRect(0, 157, 75, 61);
+                        g.fillRect(192, 367, 30, 61);
+                        g.fillRect(203, 357, 30, 61);
+                
+                        
+                }} 
+            </textarea>
+            <br><br>
+                <center>
+                    <div>
+                        <pre>Output :</pre>
+                        <img src="images/act19image.jpg" height="380">
+                    </div>
+                </center>
+        </div>
+    </div>
+    <br><br><br><br>
+    <center><pre>A project presented by: JHON FRANCIS A. DUARTE</pre></center>
+    <br><br><br><br>
+
+</div>
+<br><br><br><br><br><br>
+    
+    <script>
+        const wccLogo = document.querySelectorAll('.logoAnim');
+        observer3 = new IntersectionObserver((entries) =>{
+        entries.forEach(entry => {
+                if(entry.intersectionRatio > 0){
+                    entry.target.style.animation = 'logoAnim1 2.5s forwards ease-out';
+                }else{
+                    entry.target.style.animation = 'none';
+                }
+            })
+            
+        })
+        wccLogo.forEach(cont =>{
+            observer3.observe(cont)
+        })
+    </script>
+    <script>
+        const wccLogo2 = document.querySelectorAll('.logoAnim2');
+        observer4 = new IntersectionObserver((entries) =>{
+        entries.forEach(entry => {
+                if(entry.intersectionRatio > 0){
+                    entry.target.style.animation = 'logoAnimm2 2s forwards ease-out';
+                }else{
+                    entry.target.style.animation = 'none';
+                }
+            })
+            
+        })
+        wccLogo2.forEach(cont =>{
+            observer4.observe(cont)
+        })
+    </script>
+    <script>
+        const wccLogo3 = document.querySelectorAll('.logoAnim3');
+        observer5 = new IntersectionObserver((entries) =>{
+        entries.forEach(entry => {
+                if(entry.intersectionRatio > 0){
+                    entry.target.style.animation = 'logoAnimm3 1.5s forwards ease-out';
+                }else{
+                    entry.target.style.animation = 'none';
+                }
+            })
+            
+        })
+        wccLogo3.forEach(cont =>{
+            observer5.observe(cont)
+        })
+    </script>
+    <script>
+        const wccLogo4 = document.querySelectorAll('.logoAnim4');
+        observer6 = new IntersectionObserver((entries) =>{
+        entries.forEach(entry => {
+                if(entry.intersectionRatio > 0){
+                    entry.target.style.animation = 'logoAnimm4 1s forwards ease-out';
+                }else{
+                    entry.target.style.animation = 'none';
+                }
+            })
+            
+        })
+        wccLogo4.forEach(cont =>{
+            observer6.observe(cont)
+        })
+    </script>
+    <script>
+        const wcc = document.querySelectorAll('.wcc1');
+        observer7 = new IntersectionObserver((entries) =>{
+        entries.forEach(entry => {
+                if(entry.intersectionRatio > 0){
+                    entry.target.style.animation = 'wc 1s forwards ease-out';
+                }else{
+                    entry.target.style.animation = 'none';
+                }
+            })
+            
+        })
+        wcc.forEach(cont =>{
+            observer7.observe(cont)
+        })
+    </script>
+    <script>
+        const wcc2 = document.querySelectorAll('.wcc2');
+        observer8 = new IntersectionObserver((entries) =>{
+        entries.forEach(entry => {
+                if(entry.intersectionRatio > 0){
+                    entry.target.style.animation = 'wc2 2s forwards ease-out';
+                }else{
+                    entry.target.style.animation = 'none';
+                }
+            })
+            
+        })
+        wcc2.forEach(cont =>{
+            observer8.observe(cont)
+        })
+    </script>
+    <script>
+        const wcc3 = document.querySelectorAll('.wcc3');
+        observer9 = new IntersectionObserver((entries) =>{
+        entries.forEach(entry => {
+                if(entry.intersectionRatio > 0){
+                    entry.target.style.animation = 'wc3 3s forwards ease-out';
+                }else{
+                    entry.target.style.animation = 'none';
+                }
+            })
+            
+        })
+        wcc3.forEach(cont =>{
+            observer9.observe(cont)
+        })
+    </script>
+    <script>
+        const wccLogo3 = document.querySelectorAll('.logoAnim3');
+        observer5 = new IntersectionObserver((entries) =>{
+        entries.forEach(entry => {
+                if(entry.intersectionRatio > 0){
+                    entry.target.style.animation = 'logoAnimm3 1.5s forwards ease-out';
+                }else{
+                    entry.target.style.animation = 'none';
+                }
+            })
+            
+        })
+        wccLogo3.forEach(cont =>{
+            observer5.observe(cont)
+        })
+    </script> 
+</body>
+</html>
